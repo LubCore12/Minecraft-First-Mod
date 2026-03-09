@@ -50,5 +50,9 @@
   "tooltip.tutorialmod.magic_block": "§kM§rЭтот блок очень-очень §9МАГИЧЕСКИЙ§r§kM§r",
   "tooltip.tutorialmod.chisel.shift_down": "Этот предмет превращает блоки в Кирпичи!",
   "tooltip.tutorialmod.chisel.shift_up": "Нажми §eShift§r для большей Информации!",
-  "tooltip.tutorialmod.cauliflower": "Это деликатес!"
+  "tooltip.tutorialmod.cauliflower": "Это деликатес!",
+
+  "item.tutorialmod.core_armor_trim_smithing_template": "Кузнечный Шаблон",
+  "trim_material.tutorialmod.pink_garnet": "Розовый Гранат",
+  "trim_pattern.tutorialmod.core": "Отделка «Ядро»"
 }

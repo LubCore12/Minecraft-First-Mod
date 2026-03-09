@@ -1,0 +1,8 @@
+{
+  "asset_id": "tutorialmod:core",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.tutorialmod.core"
+  },
+  "template_item": "tutorialmod:core_armor_trim_smithing_template"
+}

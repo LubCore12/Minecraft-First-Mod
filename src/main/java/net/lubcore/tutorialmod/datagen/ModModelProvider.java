@@ -6,6 +6,7 @@ import net.lubcore.tutorialmod.block.ModBlocks;
 import net.lubcore.tutorialmod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 
@@ -53,6 +54,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORE_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.PINK_GARNET_CHESTPLATE));

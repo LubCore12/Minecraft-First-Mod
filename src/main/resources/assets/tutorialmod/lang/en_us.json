@@ -50,5 +50,9 @@
   "tooltip.tutorialmod.magic_block": "§kM§rThis block is very, very §9MAGICAL§r§kM§r",
   "tooltip.tutorialmod.chisel.shift_down": "This item chisels blocks into Bricks!",
   "tooltip.tutorialmod.chisel.shift_up": "Press §eShift§r for more Information!",
-  "tooltip.tutorialmod.cauliflower": "This is delicious!"
+  "tooltip.tutorialmod.cauliflower": "This is delicious!",
+
+  "item.tutorialmod.core_armor_trim_smithing_template": "Smithing Template",
+  "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
+  "trim_pattern.tutorialmod.core": "Core Armor Pattern"
 }

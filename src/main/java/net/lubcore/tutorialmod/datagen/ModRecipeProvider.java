@@ -2,6 +2,7 @@ package net.lubcore.tutorialmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.lubcore.tutorialmod.TutorialMod;
 import net.lubcore.tutorialmod.block.ModBlocks;
 import net.lubcore.tutorialmod.item.ModItems;
 import net.minecraft.block.Blocks;
@@ -13,6 +14,7 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -195,5 +197,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('L', Items.LEATHER)
                 .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                 .offerTo(exporter);
+
+        offerSmithingTrimRecipe(exporter, ModItems.CORE_SMITHING_TEMPLATE, Identifier.of(TutorialMod.MOD_ID, "core"));
     }
 }
